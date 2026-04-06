@@ -1,0 +1,4 @@
+interface:
+  display_name: "运筹优化"
+  short_description: "工业级运筹优化建模、选型、调参与排障技能。"
+  default_prompt: "使用 $operations-research-optimization 分析一个工业优化问题，选择建模与求解路线，并给出可执行的调参与兜底方案。"

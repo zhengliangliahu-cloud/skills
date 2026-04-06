@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "深度学习架构"
+  short_description: "深度学习架构选型、比较、泛化与 EEG 解码顾问。"
+  default_prompt: "使用 $deep-learning-architecture 分析一个任务的深度学习架构选择，比较候选路线，并给出泛化与实验建议。"

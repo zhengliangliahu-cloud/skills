@@ -1,0 +1,4 @@
+interface:
+  display_name: "EEG Signal Quality Atlas"
+  short_description: "Distinguish clean EEG artifacts and noise"
+  default_prompt: "Use $eeg-signal-quality-atlas to distinguish clean EEG, artifacts, and noise for this EEG paradigm."

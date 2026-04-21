@@ -1,0 +1,30 @@
+# === 算法配置模板 ===
+# 文件名应与 general.yaml 中的 method 字段对应
+# 例如 method: "my_model" → config/my_model.yaml
+
+# --- 模型架构参数 ---
+model:
+  backbone: "EEGNet"            # 主干网络
+  dropout: 0.5
+  d_model: 128                  # 隐空间维度
+  # ... 添加模型特有参数
+
+# --- 训练超参数 ---
+train:
+  max_epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.01
+
+  # 学习率调度器
+  scheduler:
+    T_max: 200                  # CosineAnnealing 周期（通常等于 max_epochs）
+    eta_min: 1.0e-6             # 最小学习率
+
+  # 可选：warmup
+  # warmup_epochs: 10
+
+# --- 损失函数权重 ---
+loss_weights:
+  lambda_task: 1.0              # 主任务损失权重
+  # lambda_reg: 0.01            # 正则化损失权重
+  # ... 添加方法特有的损失权重

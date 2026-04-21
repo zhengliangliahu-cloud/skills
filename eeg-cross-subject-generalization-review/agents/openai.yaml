@@ -1,0 +1,4 @@
+interface:
+  display_name: "EEG Cross-Subject Review"
+  short_description: "Survey and write EEG cross-subject literature reviews"
+  default_prompt: "Use $eeg-cross-subject-generalization-review to survey EEG cross-subject generalization papers and write a concise Chinese review with publication status, method summaries, and comparison caveats."

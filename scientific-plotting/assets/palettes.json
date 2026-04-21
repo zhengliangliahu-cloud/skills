@@ -1,0 +1,135 @@
+{
+  "categorical": {
+    "okabe_ito": [
+      "#E69F00",
+      "#56B4E9",
+      "#009E73",
+      "#F0E442",
+      "#0072B2",
+      "#D55E00",
+      "#CC79A7",
+      "#000000"
+    ],
+    "okabe_ito_no_black": [
+      "#E69F00",
+      "#56B4E9",
+      "#009E73",
+      "#F0E442",
+      "#0072B2",
+      "#D55E00",
+      "#CC79A7"
+    ],
+    "tableau_colorblind10": [
+      "#006BA4",
+      "#FF800E",
+      "#ABABAB",
+      "#595959",
+      "#5F9ED1",
+      "#C85200",
+      "#898989",
+      "#A2C8EC",
+      "#FFBC79",
+      "#CFCFCF"
+    ],
+    "colorbrewer_set2": [
+      "#66C2A5",
+      "#FC8D62",
+      "#8DA0CB",
+      "#E78AC3",
+      "#A6D854",
+      "#FFD92F",
+      "#E5C494",
+      "#B3B3B3"
+    ],
+    "gray": [
+      "#222222",
+      "#555555",
+      "#888888",
+      "#BBBBBB"
+    ]
+  },
+  "sequential": {
+    "viridis": "matplotlib:viridis",
+    "cividis": "matplotlib:cividis",
+    "magma": "matplotlib:magma",
+    "colorbrewer_blues": [
+      "#F7FBFF",
+      "#DEEBF7",
+      "#C6DBEF",
+      "#9ECAE1",
+      "#6BAED6",
+      "#4292C6",
+      "#2171B5",
+      "#08519C",
+      "#08306B"
+    ],
+    "colorbrewer_greys": [
+      "#FFFFFF",
+      "#F0F0F0",
+      "#D9D9D9",
+      "#BDBDBD",
+      "#969696",
+      "#737373",
+      "#525252",
+      "#252525",
+      "#000000"
+    ]
+  },
+  "diverging": {
+    "colorbrewer_rdbu": [
+      "#67001F",
+      "#B2182B",
+      "#D6604D",
+      "#F4A582",
+      "#FDDBC7",
+      "#F7F7F7",
+      "#D1E5F0",
+      "#92C5DE",
+      "#4393C3",
+      "#2166AC",
+      "#053061"
+    ],
+    "blue_orange": [
+      "#2166AC",
+      "#67A9CF",
+      "#D1E5F0",
+      "#F7F7F7",
+      "#FDDBC7",
+      "#EF8A62",
+      "#B2182B"
+    ],
+    "purple_green": [
+      "#762A83",
+      "#AF8DC3",
+      "#E7D4E8",
+      "#F7F7F7",
+      "#D9F0D3",
+      "#7FBF7B",
+      "#1B7837"
+    ]
+  },
+  "line_styles": [
+    "-",
+    "--",
+    "-.",
+    ":"
+  ],
+  "markers": [
+    "o",
+    "s",
+    "^",
+    "D",
+    "v",
+    "P",
+    "X",
+    "*"
+  ],
+  "hatches": [
+    "",
+    "///",
+    "\\\\\\",
+    "...",
+    "xxx",
+    "++"
+  ]
+}

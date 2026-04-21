@@ -1,0 +1,13 @@
+# === 全局配置 ===
+# 切换实验只需修改 method 和 dataset 两个字段
+
+exp_name: "MyExperiment"       # 实验别名，用于结果目录命名
+seed: 2025                     # 全局随机种子（确保可复现）
+accelerator: "gpu"             # "gpu" | "cpu" | "mps"
+devices: [0]                   # GPU 设备列表，多卡: [0, 1]
+
+method: "my_model"             # 当前方法名 → 对应 config/<method>.yaml
+# 可选: my_model, eegnet, deepconvnet, atcnet, shallownet, ...
+
+dataset: "2a"                  # 当前数据集 → 对应 data.yaml 中的顶级 key
+# 可选: 2a, 2b, physionet, openbmi, ...

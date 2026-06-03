@@ -16,6 +16,7 @@ Load only the references needed for the current task:
 - Use `references/paradigm-atlas.md` when the user names or implies a paradigm such as `MI`, `P300`, `SSVEP`, sleep EEG, wearable EEG, emotion EEG, workload, or hybrid BCI.
 - Use `references/artifact-noise-taxonomy.md` when the task is to identify artifact/noise source from waveform, topography, or recording context.
 - Use `references/discrimination-features.md` when the task needs numeric features, thresholds, signal-quality indices, ICA/ICLabel evidence, PSD/SNR, or tabular criteria.
+- Use `references/statistical-distribution-atlas.md` when the task asks about statistical distribution, 分布差异, 特征分布, amplitude distribution, PSD distribution, feature distribution, outlier distribution, robust z-score, or how clean EEG, artifacts, and noise differ in raw-amplitude, window/epoch, frequency-domain, trial/event, channel-quality, or ICA-component feature distributions.
 - Use `references/workflow-checklists.md` when recommending preprocessing, inspection order, bad-channel handling, epoch rejection, ICA, ASR, Autoreject, PREP, or FASTER.
 - Use `references/source-map.md` when citing literature basis, checking source provenance, or expanding the atlas.
 

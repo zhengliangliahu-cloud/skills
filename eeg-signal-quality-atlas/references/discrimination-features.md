@@ -2,6 +2,8 @@
 
 Use this reference when a judgment needs numeric or semi-quantitative evidence. Prefer robust, dataset-relative thresholds over universal cutoffs because EEG amplitude and noise depend on montage, reference, device, subject, and task.
 
+For distribution-level comparisons of clean EEG, artifacts, and noise, load `references/statistical-distribution-atlas.md` first. This file defines the individual features; the statistical-distribution atlas explains how feature values should differ across classes, windows, trials, channels, and ICA components.
+
 ## Feature Families
 
 ### Amplitude And Peak-To-Peak

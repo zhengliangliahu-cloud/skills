@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stata Experiment Hardening"
+  short_description: "Run and debug reproducible Stata TWFE/DID workflows on Windows"
+  default_prompt: "Use Stata Experiment Hardening to execute or repair .do pipelines, enforce firm+year FE specs, stabilize table extraction, and sync table/doc deliverables."

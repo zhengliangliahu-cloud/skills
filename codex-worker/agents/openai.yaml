@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Worker"
+  short_description: "Delegate bounded subtasks to local Codex CLI"
+  default_prompt: "Use $codex-worker to delegate a bounded coding, debugging, review, or writing subtask to local Codex CLI."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kimi Worker"
+  short_description: "Delegate coding subtasks to local Kimi Code"
+  default_prompt: "Use $kimi-worker to delegate a bounded coding or bug-fix subtask to local Kimi Code."
